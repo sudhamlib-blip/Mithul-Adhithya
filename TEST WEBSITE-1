@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Awesome Website</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #3498db;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    .container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container img {
+      width: 300px;
+      border-radius: 15px;
+      margin: 20px 0;
+    }
+    .btn {
+      background: #2ecc71;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #27ae60;
+    }
+    footer {
+      background: #34495e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Awesome Website!</h1>
+    <p>This site is hosted for free using GitHub Pages</p>
+  </header>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/300x200.png?text=My+Website" alt="Website Image">
+    <p>Explore this website to learn more about me and my projects!</p>
+    <a href="#" class="btn">Click Me!</a>
+  </div>
+
+  <footer>
+    &copy; 2025 My Awesome Website
+  </footer>
+
+</body>
+</html>
+
